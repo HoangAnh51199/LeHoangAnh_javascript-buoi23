@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  icon-->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="body">
+
+
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">tính lương nhân viên </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập lương một ngày </label>
+                            <input type="number" class="form-control" id="luong1Day" placeholder="Nhập lương một ngày " />
+                        </div>
+                        <div class="form-group">
+                            <label>số ngày làm </label>
+                            <input type="number" class="form-control" id="dayofWork" placeholder="Nhập số ngày làm" />
+                        </div>
+                        <button id="btnTinhLuong" class="btn btn-success">Tính lương</button>
+                    </div>
+                    <div id="footerTinhLuong" class="card-footer">
+                        <i class="fa-solid fa-hand-point-right" style="color: #bed60a;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">tính giá trị trung bình </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập số thứ nhất </label>
+                            <input type="number" class="form-control" id="number1" placeholder="number1 " />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập số thứ hai</label>
+                            <input type="number" class="form-control" id="number2" placeholder="number2" />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập số thứ ba</label>
+                            <input type="number" class="form-control" id="number3" placeholder="number3" />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập số thứ tư</label>
+                            <input type="number" class="form-control" id="number4" placeholder="number4" />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập số thứ năm</label>
+                            <input type="number" class="form-control" id="number5" placeholder="number5" />
+                        </div>
+                        <button id="btnTinhTB" class="btn btn-success">Tính trung bình</button>
+                    </div>
+                    <div id="footerTinhTB" class="card-footer">
+                        <i class="fa-solid fa-hand-point-right" style="color: #bed60a;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Quy đỗi tiền </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            
+                            <input type="number" class="form-control" id="nhapUsd" placeholder="Nhập số tiền usd " />
+                        </div>
+                       
+                        <button id="btnChuyenUsd" class="btn btn-success">Quy đỗi tiền</button>
+                    </div>
+                    <div id="footerChuyenUsd" class="card-footer">
+                        <i class="fa-solid fa-hand-point-right" style="color: #bed60a;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">tính diện tích ,chuvi</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập chiều dài </label>
+                            <input type="number" class="form-control" id="chieuDai" placeholder="chieuDai " />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập chiều rộng</label>
+                            <input type="number" class="form-control" id="chieuRong" placeholder="chieuRong" />
+                        </div>
+                        
+                       
+                        <button id="btnTinh" class="btn btn-success">Tính </button>
+                    </div>
+                    <div id="footerTinhDTCV" class="card-footer">
+                        <i class="fa-solid fa-hand-point-right" style="color: #bed60a;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">tính tổng 2 ký số</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập số có 2 chữ số </label>
+                            <input type="number" class="form-control" id="soHaiky" placeholder="Nhập số có 2 chữ số " />
+                        </div>
+                        
+                        
+                       
+                        <button id="btnTong2KySo" class="btn btn-success">Tính </button>
+                    </div>
+                    <div id="footerTinhT2KySo" class="card-footer">
+                        <i class="fa-solid fa-hand-point-right" style="color: #bed60a;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
