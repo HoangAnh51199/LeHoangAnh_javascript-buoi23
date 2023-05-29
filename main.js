@@ -87,3 +87,4 @@ btnTong2KySo.onclick = function () {
     footerTinhT2KySo.innerHTML = result5; //xuất ra
 };
 
+
